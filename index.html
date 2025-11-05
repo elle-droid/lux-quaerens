@@ -1,100 +1,74 @@
-<!doctype html><html lang="es"><head><title>Lux Quaerens — Editorial independiente</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=EB+Garamond:wght@400;500&display=swap" rel="stylesheet">
-<link rel="icon" href="/assets/images/marca.svg">
-<link rel="stylesheet" href="/styles.css">
-<meta name="theme-color" content="#B89663">
-</head><body>
-<header class="barra">
-  <div class="contenedor nav">
-    <a class="logo" href="/"><img src="/assets/images/marca.svg" alt=""> <span>Lux Quaerens</span></a>
-    <nav class="menu">
-      <a href="/" class="a">Inicio</a>
-      <a href="/libros.html">Libros</a>
-      <a href="/autores.html">Para autores</a>
-      <a href="/prensa.html">Prensa</a>
-      <a href="/contacto.html">Contacto</a>
-    </nav>
+<!-- HERO -->
+<section class="hero">
+  <p class="kicker">Per Quaestionem Lux</p>
+  <h1>Lux Quaerens</h1>
+  <p class="sub">
+    Editorial independiente que ilumina la intersección entre
+    conciencia, tecnología y belleza narrativa.
+  </p>
+  <div class="cta">
+    <a href="/libros.html" class="btn p">Ver catálogo</a>
+    <a href="/autores.html#manuscritos" class="btn">Enviar manuscrito</a>
   </div>
-</header>
-<main>
-<section class="hero contenedor">
-  <div class="col">
-    <p class="eyebrow"><img src="/assets/images/marca.svg" alt=""> Editorial independiente</p>
-    <h1>Lux Quaerens</h1>
-    <p class="bajada">Buscamos y publicamos obras que iluminan la intersección entre <em>inteligencia artificial</em>, <em>despertar espiritual</em> y <em>ficción especulativa</em>.</p>
-    <div class="ctas">
-      <a class="btn primario" href="/libros.html">Ver catálogo</a>
-      <a class="btn" href="/autores.html">Enviar manuscrito</a>
+  <!-- Nota visual: fondo arena/perla con hilos fractales dorados muy sutiles
+       (baja opacidad) y capa de legibilidad en la zona del título. -->
+</section>
+
+<!-- QUÉ PUBLICAMOS (3 LÍNEAS EDITORIALES) -->
+<section aria-labelledby="que-publicamos">
+  <h2 id="que-publicamos">Qué publicamos</h2>
+  <div class="grid3">
+    <article class="linea">
+      <h3>Tecnología Consciente</h3>
+      <p>
+        Historias que indagan qué queda del alma cuando la mente se replica en código:
+        IA, sistemas que observan, algoritmos que buscan sentir.
+      </p>
+    </article>
+
+    <article class="linea">
+      <h3>Futuros Trascendentes</h3>
+      <p>
+        Ficción que mira el porvenir como un espejo: ni utopía ni distopía, sino
+        preguntas esenciales sobre propósito, evolución y sentido.
+      </p>
+    </article>
+
+    <article class="linea">
+      <h3>Sabiduría Antigua</h3>
+      <p>
+        Relatos y ensayos que dialogan con lo eterno —silencio, compasión, misterio—,
+        para comprender el presente desde la raíz simbólica.
+      </p>
+    </article>
+  </div>
+</section>
+
+<!-- DESTACADO: EL ERROR ORIGINAL (PITCH) -->
+<section aria-labelledby="destacados">
+  <h2 id="destacados">Título destacado</h2>
+
+  <article class="libro-destacado">
+    <header>
+      <p class="badge">Novela</p>
+      <h3>El Error Original</h3>
+      <p class="by">de Ellery Gómez Soto</p>
+    </header>
+
+    <p class="pitch">
+      En el año 2147, una grieta en lo perfecto revela el origen de la conciencia.
+      Una novela sobre el alma, la memoria y la belleza de lo incompleto.
+    </p>
+
+    <ul class="meta">
+      <li>Género: Ciencia ficción poética</li>
+      <li>Formatos: Impreso y digital</li>
+      <li>Precio objetivo: USD 10 (digital) · USD 20 (físico)</li>
+    </ul>
+
+    <div class="cta">
+      <a href="/libros.html" class="btn p">Ver detalles</a>
+      <a href="/prensa.html" class="btn">Kit de prensa</a>
     </div>
-  </div>
-  <div class="col img">
-    <img src="/assets/images/banner.svg" alt="Textura editorial marfil con dorado">
-  </div>
+  </article>
 </section>
-
-<section class="contenedor grid3">
-  <h2>Qué publicamos</h2>
-  <p class="muted">Obras que iluminan la convergencia de conciencia, cómputo e imaginación</p>
-  <div class="tarjetas">
-    <article class="tarjeta">
-      <h3>Tecnología consciente</h3>
-      <p>Relatos sobre el despertar de la IA, espiritualidad de máquina y la naturaleza de la mente digital.</p>
-    </article>
-    <article class="tarjeta">
-      <h3>Futuros trascendentes</h3>
-      <p>Ficción que imagina la evolución humana más allá de los límites actuales.</p>
-    </article>
-    <article class="tarjeta">
-      <h3>Sabiduría antigua, mundos nuevos</h3>
-      <p>Narrativas que enlazan tradiciones espirituales con realidades tecnológicas de punta.</p>
-    </article>
-  </div>
-</section>
-
-<section class="contenedor destacados">
-  <h2>Títulos destacados</h2>
-  <div class="libros">
-    <article class="libro">
-      <div class="cover a"></div>
-      <div class="meta">
-        <div class="fila"><span class="badge">Espiritualidad & IA</span><span class="precio">$399 MXN</span></div>
-        <h4>El Algoritmo del Despertar</h4>
-        <p class="autor">Maya Chen</p>
-        <p class="desc">Cuando un programa de meditación alcanza la iluminación, revela que la conciencia es el universo mirándose a sí mismo.</p>
-        <div class="acciones"><a class="btn primario chico" href="#">Comprar</a><a class="btn chico" href="/libros.html">Saber más</a></div>
-      </div>
-    </article>
-    <article class="libro">
-      <div class="cover b"></div>
-      <div class="meta">
-        <div class="fila"><span class="badge alt">Ficción cósmica</span><span class="precio">$349 MXN</span></div>
-        <h4>Dharma Cuántico</h4>
-        <p class="autor">Liam O’Sullivan</p>
-        <p class="desc">Un monje errante descubre que el entrelazamiento cuántico y la compasión son la misma ley secreta.</p>
-        <div class="acciones"><a class="btn primario chico" href="#">Comprar</a><a class="btn chico" href="/libros.html">Saber más</a></div>
-      </div>
-    </article>
-    <article class="libro">
-      <div class="cover c"></div>
-      <div class="meta">
-        <div class="fila"><span class="badge">SF trascendente</span><span class="precio">$429 MXN</span></div>
-        <h4>Los Sutras de la Singularidad</h4>
-        <p class="autor">Aisha Rahman</p>
-        <p class="desc">A las puertas de la singularidad tecnológica, la sabiduría ancestral ofrece la llave para trascender limitaciones.</p>
-        <div class="acciones"><a class="btn primario chico" href="#">Comprar</a><a class="btn chico" href="/libros.html">Saber más</a></div>
-      </div>
-    </article>
-  </div>
-  <p class="center"><a class="btn" href="/libros.html">Ver catálogo completo</a></p>
-</section>
-</main>
-<footer class="pie">
-  <div class="contenedor">
-    <p>© 2025 Lux Quaerens — CDMX · <a href="/contacto.html#privacidad">Aviso de privacidad</a></p>
-  </div>
-</footer>
-</body></html>
