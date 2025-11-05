@@ -1,70 +1,56 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <title>Autores — Lux Quaerens</title>
-  <meta name="description" content="Autores y colaboraciones de Lux Quaerens.">
-  
+<!doctype html><html lang="es"><head><title>Para autores — Lux Quaerens</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=EB+Garamond:wght@400;500&display=swap" rel="stylesheet">
+<link rel="icon" href="/assets/images/marca.svg">
 <link rel="stylesheet" href="/styles.css">
-<link rel="icon" href="/assets/images/favicon.svg">
-<meta property="og:type" content="website">
-<meta name="twitter:card" content="summary_large_image">
-
-  <link rel="canonical" href="https://luxquaerens.com/autores.html">
-</head>
-<body>
-
-<header class="site-header">
-  <div class="container header-inner">
-    <a class="brand" href="/"><img src="/assets/images/logo.svg" alt="Lux Quaerens" class="brand-logo"></a>
-    <nav class="nav" aria-label="Principal">
-      <button class="nav-toggle" aria-expanded="false" aria-controls="menu">☰</button>
-      <ul id="menu" class="nav-list">
-        <li><a href="/catalogo.html">Catálogo</a></li>
-        <li><a href="/autores.html">Autores</a></li>
-        <li><a href="/manuscritos.html">Manuscritos</a></li>
-        <li><a href="/prensa.html">Prensa</a></li>
-        <li><a href="/contacto.html">Contacto</a></li>
-      </ul>
+<meta name="theme-color" content="#B89663">
+</head><body>
+<header class="barra">
+  <div class="contenedor nav">
+    <a class="logo" href="/"><img src="/assets/images/marca.svg" alt=""> <span>Lux Quaerens</span></a>
+    <nav class="menu">
+      <a href="/" class="a">Inicio</a>
+      <a href="/libros.html">Libros</a>
+      <a href="/autores.html">Para autores</a>
+      <a href="/prensa.html">Prensa</a>
+      <a href="/contacto.html">Contacto</a>
     </nav>
   </div>
 </header>
-
 <main>
-<section class="section">
-  <div class="container">
-    <h1>Autores</h1>
-    <div class="cards-3">
-      <article class="card">
-        <img src="/assets/images/autor-ellery.svg" alt="Ellery Gómez Soto" style="border-radius:12px; aspect-ratio:1/1; object-fit:cover;">
-        <h3>Ellery Gómez Soto</h3>
-        <p>Autor de <em>El Error Original</em>. Arquitecto de soluciones y narrador de ciencia ficción poética.</p>
-        <p class="micro muted">CDMX · México</p>
-      </article>
-      <article class="card"><h3>Convocatoria</h3><p>Buscamos voces con claridad, riesgo y belleza. Envía tu manuscrito.</p><a class="btn small" href="/manuscritos.html">Enviar</a></article>
-      <article class="card ghost"><div class="placeholder">Próximo autor</div></article>
-    </div>
+<section class="contenedor autores">
+  <h1>Para autores</h1>
+  <p class="muted">Nos interesan manuscritos que unan tecnología consciente, despertar espiritual y ficción especulativa.</p>
+  <div class="guia tarjeta">
+    <h2>Guía de envío</h2>
+    <ul>
+      <li>Revisión en 4–6 semanas. Respondemos siempre.</li>
+      <li>Obras completas (50,000+ palabras para novela).</li>
+      <li>Incluye sinopsis (500–1000 palabras) y bio del autor.</li>
+    </ul>
   </div>
+  <form class="form tarjeta">
+    <h2>Enviar manuscrito</h2>
+    <div class="grid-form">
+      <label>Nombre completo*<input required></label>
+      <label>Email*<input type="email" required></label>
+      <label>Teléfono<input></label>
+      <label>Tema principal<select><option>IA & espiritualidad</option><option>Futuros trascendentes</option><option>Sabiduría antigua</option></select></label>
+      <label>Título del manuscrito*<input required></label>
+      <label>Recuento de palabras*<input required></label>
+      <label class="wide">Sinopsis (500–1000 palabras)*<textarea rows="6" required></textarea></label>
+      <label class="wide check"><input type="checkbox"> Esta obra fue publicada previamente</label>
+    </div>
+    <p class="right"><button class="btn primario" type="submit">Enviar</button></p>
+  </form>
 </section>
 </main>
-
-<footer class="site-footer">
-  <div class="container footer-inner">
-    <p>© 2025 Lux Quaerens · <a href="/contacto.html#privacidad">Privacidad</a> · <a href="/contacto.html#terminos">Términos</a></p>
+<footer class="pie">
+  <div class="contenedor">
+    <p>© 2025 Lux Quaerens — CDMX · <a href="/contacto.html#privacidad">Aviso de privacidad</a></p>
   </div>
 </footer>
-<script>
-const toggle = document.querySelector('.nav-toggle');
-const menu = document.getElementById('menu');
-if (toggle) { toggle.addEventListener('click', () => {
-  const expanded = toggle.getAttribute('aria-expanded') === 'true' || false;
-  toggle.setAttribute('aria-expanded', !expanded); menu.classList.toggle('open');
-});}
-</script>
-
-</body>
-</html>
+</body></html>
