@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>Catálogo — Lux Quaerens Editorial</title>
+  <meta name="description" content="Catálogo de libros de Lux Quaerens Editorial: ficción, ensayo y poesía seleccionada.">
+  
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/styles.css">
+<link rel="icon" href="/assets/images/favicon.png">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+
+  <link rel="canonical" href="https://luxquaerens.com/catalogo.html">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="/"><img src="/assets/images/logo.png" alt="Lux Quaerens Editorial" class="brand-logo"></a>
+    <nav class="nav" aria-label="Principal">
+      <button class="nav-toggle" aria-expanded="false" aria-controls="menu">☰</button>
+      <ul id="menu" class="nav-list">
+        <li><a href="/catalogo.html">Catálogo</a></li>
+        <li><a href="/autores.html">Autores</a></li>
+        <li><a href="/manuscritos.html">Manuscritos</a></li>
+        <li><a href="/prensa.html">Prensa</a></li>
+        <li><a href="/contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="section">
+  <div class="container">
+    <h1>Catálogo</h1>
+    <p class="muted">Selección en construcción. Actualizamos conforme avanza la edición.</p>
+    <div class="cards-3">
+      <article class="book-card">
+        <img src="/assets/images/el-error-original-portada.jpg" alt="El Error Original (portada temporal)">
+        <div class="book-body">
+          <h3>El Error Original</h3>
+          <ul class="micro">
+            <li>Autor: Ellery Gómez Soto</li>
+            <li>Género: Novela</li>
+            <li>Formato: Impreso y digital</li>
+            <li>Precio estimado: USD 10 (digital) · USD 20 (físico)</li>
+          </ul>
+          <p>Primera edición — Próximamente.</p>
+        </div>
+      </article>
+      <article class="book-card ghost"><div class="placeholder">Próximo título</div></article>
+      <article class="book-card ghost"><div class="placeholder">Próximo título</div></article>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p>© 2025 Lux Quaerens Editorial · <a href="/contacto.html#privacidad">Privacidad</a> · <a href="/contacto.html#terminos">Términos</a></p>
+  </div>
+</footer>
+<script>
+const toggle = document.querySelector('.nav-toggle');
+const menu = document.getElementById('menu');
+if (toggle) { toggle.addEventListener('click', () => {
+  const expanded = toggle.getAttribute('aria-expanded') === 'true' || false;
+  toggle.setAttribute('aria-expanded', !expanded); menu.classList.toggle('open');
+});}
+</script>
+
+</body>
+</html>

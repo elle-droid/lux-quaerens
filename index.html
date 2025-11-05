@@ -1,19 +1,112 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Lux Quaerens Editorial — Libros que buscan la luz</title>
-  <link rel="stylesheet" href="styles.css">
+  <meta name="description" content="Editorial independiente en CDMX. Publicamos ficción y no ficción con visión poética y filosófica.">
+  
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/styles.css">
+<link rel="icon" href="/assets/images/favicon.png">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+
+  <link rel="canonical" href="https://luxquaerens.com/">
 </head>
 <body>
-  <header><h1>Lux Quaerens Editorial</h1></header>
-  <main>
-    <section>
-      <p>Editorial independiente en Ciudad de México. Publicamos ficción y no ficción con visión poética y filosófica.</p>
-      <p><strong>Libros que buscan la luz.</strong></p>
-    </section>
-  </main>
-  <footer>© Lux Quaerens Editorial</footer>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="/"><img src="/assets/images/logo.png" alt="Lux Quaerens Editorial" class="brand-logo"></a>
+    <nav class="nav" aria-label="Principal">
+      <button class="nav-toggle" aria-expanded="false" aria-controls="menu">☰</button>
+      <ul id="menu" class="nav-list">
+        <li><a href="/catalogo.html">Catálogo</a></li>
+        <li><a href="/autores.html">Autores</a></li>
+        <li><a href="/manuscritos.html">Manuscritos</a></li>
+        <li><a href="/prensa.html">Prensa</a></li>
+        <li><a href="/contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="hero" role="banner">
+  <img src="/assets/images/banner.jpg" class="hero-image" alt="Textura editorial — luz sutil">
+  <div class="hero-overlay">
+    <h1>Lux Quaerens Editorial</h1>
+    <p>Libros que buscan la luz.</p>
+    <div class="cta-row">
+      <a class="btn primary" href="/catalogo.html">Ver catálogo</a>
+      <a class="btn ghost" href="/manuscritos.html">Enviar manuscrito</a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container grid-2">
+    <div>
+      <h2>Manifiesto</h2>
+      <p>Somos una editorial independiente fundada en Ciudad de México. Publicamos obras que combinan narrativa poderosa, pensamiento crítico y belleza formal. Creemos en la edición cuidadosa, el diseño sobrio y la distribución accesible.</p>
+      <p>Trabajamos con tirajes responsables, precios justos y procesos transparentes para autores y lectores.</p>
+    </div>
+    <div class="card">
+      <h3>Nuestros principios</h3>
+      <ul>
+        <li>Edición artesana, sin prisa.</li>
+        <li>Diseño sobrio y legible.</li>
+        <li>Accesibilidad en precio y formatos.</li>
+        <li>Relación honesta con autores.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="section alt">
+  <div class="container">
+    <h2>Líneas editoriales</h2>
+    <div class="pill-row">
+      <span class="pill">Ficción contemporánea</span>
+      <span class="pill">Ensayo (ciencia/filosofía)</span>
+      <span class="pill">Poesía (proyectos especiales)</span>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h2>Destacados</h2>
+    <div class="cards-3">
+      <article class="book-card">
+        <img src="/assets/images/el-error-original-portada.jpg" alt="Portada temporal: El Error Original" loading="lazy">
+        <div class="book-body">
+          <h3>El Error Original</h3>
+          <p class="muted">Próximamente · Novela</p>
+          <p>Una exploración sobre conciencia, tecnología y la belleza de lo incompleto.</p>
+          <div class="book-cta"><a class="btn small" href="/catalogo.html">Ver ficha</a></div>
+        </div>
+      </article>
+      <article class="book-card ghost"><div class="placeholder">Próximo título</div></article>
+      <article class="book-card ghost"><div class="placeholder">Próximo título</div></article>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p>© 2025 Lux Quaerens Editorial · <a href="/contacto.html#privacidad">Privacidad</a> · <a href="/contacto.html#terminos">Términos</a></p>
+  </div>
+</footer>
+<script>
+const toggle = document.querySelector('.nav-toggle');
+const menu = document.getElementById('menu');
+if (toggle) { toggle.addEventListener('click', () => {
+  const expanded = toggle.getAttribute('aria-expanded') === 'true' || false;
+  toggle.setAttribute('aria-expanded', !expanded); menu.classList.toggle('open');
+});}
+</script>
+
 </body>
 </html>

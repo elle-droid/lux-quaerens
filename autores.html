@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>Autores — Lux Quaerens Editorial</title>
+  <meta name="description" content="Autores y colaboraciones de Lux Quaerens Editorial.">
+  
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/styles.css">
+<link rel="icon" href="/assets/images/favicon.png">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+
+  <link rel="canonical" href="https://luxquaerens.com/autores.html">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="/"><img src="/assets/images/logo.png" alt="Lux Quaerens Editorial" class="brand-logo"></a>
+    <nav class="nav" aria-label="Principal">
+      <button class="nav-toggle" aria-expanded="false" aria-controls="menu">☰</button>
+      <ul id="menu" class="nav-list">
+        <li><a href="/catalogo.html">Catálogo</a></li>
+        <li><a href="/autores.html">Autores</a></li>
+        <li><a href="/manuscritos.html">Manuscritos</a></li>
+        <li><a href="/prensa.html">Prensa</a></li>
+        <li><a href="/contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="section">
+  <div class="container">
+    <h1>Autores</h1>
+    <div class="cards-3">
+      <article class="card">
+        <img src="/assets/images/autor-ellery.jpg" alt="Ellery Gómez Soto" style="border-radius:12px; aspect-ratio:1/1; object-fit:cover;">
+        <h3>Ellery Gómez Soto</h3>
+        <p>Autor de <em>El Error Original</em>. Arquitecto de soluciones y narrador de ciencia ficción poética.</p>
+        <p class="micro muted">CDMX · México</p>
+      </article>
+      <article class="card"><h3>Convocatoria</h3><p>Buscamos voces con claridad, riesgo y belleza. Envía tu manuscrito.</p><a class="btn small" href="/manuscritos.html">Enviar</a></article>
+      <article class="card ghost"><div class="placeholder">Próximo autor</div></article>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p>© 2025 Lux Quaerens Editorial · <a href="/contacto.html#privacidad">Privacidad</a> · <a href="/contacto.html#terminos">Términos</a></p>
+  </div>
+</footer>
+<script>
+const toggle = document.querySelector('.nav-toggle');
+const menu = document.getElementById('menu');
+if (toggle) { toggle.addEventListener('click', () => {
+  const expanded = toggle.getAttribute('aria-expanded') === 'true' || false;
+  toggle.setAttribute('aria-expanded', !expanded); menu.classList.toggle('open');
+});}
+</script>
+
+</body>
+</html>

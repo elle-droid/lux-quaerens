@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>Manuscritos — Lux Quaerens Editorial</title>
+  <meta name="description" content="Envío de manuscritos y suscripción al boletín editorial.">
+  
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/styles.css">
+<link rel="icon" href="/assets/images/favicon.png">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+
+  <link rel="canonical" href="https://luxquaerens.com/manuscritos.html">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="/"><img src="/assets/images/logo.png" alt="Lux Quaerens Editorial" class="brand-logo"></a>
+    <nav class="nav" aria-label="Principal">
+      <button class="nav-toggle" aria-expanded="false" aria-controls="menu">☰</button>
+      <ul id="menu" class="nav-list">
+        <li><a href="/catalogo.html">Catálogo</a></li>
+        <li><a href="/autores.html">Autores</a></li>
+        <li><a href="/manuscritos.html">Manuscritos</a></li>
+        <li><a href="/prensa.html">Prensa</a></li>
+        <li><a href="/contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="section">
+  <div class="container grid-2">
+    <div>
+      <h1>Convocatoria de manuscritos</h1>
+      <p>Recibimos propuestas todo el año. Envía sinopsis (1 pág.), primeros 3 capítulos o 30 páginas, y bio corta.</p>
+      <ul>
+        <li>Sinopsis (máx. 500 palabras)</li>
+        <li>PDF de muestra (hasta 30 páginas)</li>
+        <li>Bio (100 palabras) y estatus de derechos</li>
+      </ul>
+      <p>Correo: <a href="mailto:manuscritos@luxquaerens.com">manuscritos@luxquaerens.com</a></p>
+    </div>
+    <form class="form" name="suscripcion" method="post" data-netlify="true">
+      <h3>Suscríbete al boletín</h3>
+      <p>Noticias, convocatorias y lanzamientos.</p>
+      <input type="hidden" name="form-name" value="suscripcion">
+      <label>Nombre <input type="text" name="nombre" required></label>
+      <label>Correo <input type="email" name="email" required></label>
+      <button class="btn primary" type="submit">Suscribirme</button>
+      <p class="micro muted">Protegemos tus datos. Lee nuestra <a href="/contacto.html#privacidad">política de privacidad</a>.</p>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p>© 2025 Lux Quaerens Editorial · <a href="/contacto.html#privacidad">Privacidad</a> · <a href="/contacto.html#terminos">Términos</a></p>
+  </div>
+</footer>
+<script>
+const toggle = document.querySelector('.nav-toggle');
+const menu = document.getElementById('menu');
+if (toggle) { toggle.addEventListener('click', () => {
+  const expanded = toggle.getAttribute('aria-expanded') === 'true' || false;
+  toggle.setAttribute('aria-expanded', !expanded); menu.classList.toggle('open');
+});}
+</script>
+
+</body>
+</html>
