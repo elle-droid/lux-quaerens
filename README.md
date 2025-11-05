@@ -1,6 +1,6 @@
 # Lux Quaerens Editorial
 
-Sitio web oficial de **Lux Quaerens Editorial**, una editorial independiente con sede en Ciudad de México.
+Sitio web oficial de **Lux Quaerens**, editorial independiente.
 
 Publicado con [Vercel](https://vercel.com) — Plan Hobby.
 
@@ -17,4 +17,4 @@ Publicado con [Vercel](https://vercel.com) — Plan Hobby.
 2. Conecta el repo en [Vercel](https://vercel.com).  
 3. Da clic en **Deploy**.
 
-© Lux Quaerens Editorial
+© Lux Quaerens
