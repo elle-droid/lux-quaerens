@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1200" viewBox="0 0 900 1200">
+  <rect width="100%" height="100%" fill="#FAF7F2" stroke="#1C1C1C" stroke-width="8"/>
+  <text x="50%" y="45%" text-anchor="middle" font-size="72" font-family="Cormorant Garamond, serif" fill="#1C1C1C">EL ERROR</text>
+  <text x="50%" y="55%" text-anchor="middle" font-size="72" font-family="Cormorant Garamond, serif" fill="#1C1C1C">ORIGINAL</text>
+  <text x="50%" y="70%" text-anchor="middle" font-size="28" font-family="EB Garamond, serif" fill="#B89663">Lux Quaerens · Portada temporal</text>
+</svg>
