@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://luxquaerens.com/</loc><lastmod>2025-11-05</lastmod></url>
-  <url><loc>https://luxquaerens.com/catalogo.html</loc><lastmod>2025-11-05</lastmod></url>
-  <url><loc>https://luxquaerens.com/autores.html</loc><lastmod>2025-11-05</lastmod></url>
-  <url><loc>https://luxquaerens.com/manuscritos.html</loc><lastmod>2025-11-05</lastmod></url>
-  <url><loc>https://luxquaerens.com/prensa.html</loc><lastmod>2025-11-05</lastmod></url>
-  <url><loc>https://luxquaerens.com/contacto.html</loc><lastmod>2025-11-05</lastmod></url>
+  <url><loc>https://luxquaerens.com/books.html</loc><lastmod>2025-11-05</lastmod></url>
+  <url><loc>https://luxquaerens.com/authors.html</loc><lastmod>2025-11-05</lastmod></url>
+  <url><loc>https://luxquaerens.com/press.html</loc><lastmod>2025-11-05</lastmod></url>
+  <url><loc>https://luxquaerens.com/contact.html</loc><lastmod>2025-11-05</lastmod></url>
 </urlset>
